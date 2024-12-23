@@ -1,10 +1,6 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
-
 sidebar:
     position: left # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
@@ -12,25 +8,16 @@ sidebar:
     tagline: Cloud Engineer
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: dejongh.morell@gmail.com
+    ## Sidebar links
+    # twitter: '@jekyllrb'
     # phone: 012 345 6789
-    timezone: America/Sao Paulo # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
     # citizenship:
+    email: dejongh.morell@gmail.com
+    timezone: America/Sao Paulo
     website: https://bytemaze.tech/ # Include the full website URL, including "http://" or "https://".
     linkedin: adejonghm
-    # xing: alandoe
     github: adejonghm
-    # telegram: # add your nickname without '@' sign
-    # gitlab:
-    # bitbucket:
-    # twitter: '@jekyllrb'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    # codewars:
-    # goodreads: # Number-Username, e.g. 123456-alandoe
-    # mastodon:  # Please include your full Mastodon link here.
-    # hackerrank: # Please provide your HackerRank username.
-    # leetcode: # Please provide your LeetCode username.
+    stack-overflow: 16385330/alejandro # Number/Username, 
     # pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
 
     languages:
@@ -43,95 +30,114 @@ sidebar:
           level: Professional
 
         - idiom: English
-          level: Professional
+          level: Communication
 
-    interests:
-      title: Interests
-      info:
-        - item: Climbing
-          link:
+    # interests:
+    #   title: Interests
+    #   info:
+    #     - item: Climbing
+    #       link:
 
-        - item: Snowboarding
-          link:
+    #     - item: Snowboarding
+    #       link:
 
-        - item: Cooking
-          link:
+    #     - item: Cooking
+    #       link:
 
 career-profile:
     title: Career Profile
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      I am a computer engineering graduate with 10 years of work experience. I consider myself a person who is always
+      willing to learn new technologies, new market trends, and operating models, which generate new challenges.
+      I currently work as a DevOps Engineer, which has allowed me to work with several clients, helping them adopt the
+      DevOps culture, use tools that contribute to Continuous Integration/Delivery, implement new market trends, and
+      create cloud infrastructure. Master's degree in Mechanical Engineering, in the Department of Mechanical Control
+      Engineering and Automation, from the Polytechnic School of the University of São Paulo.
+
+
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: M.Sc. in Mechanical Engineering Related Technologies
+        university: University of Sao Paulo, Brazil
+        time: 2018 - 2021
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+          My work aimed to analyze and identify different characteristics of the acoustic signal emitted by a gas bubble
+          formed underwater. To do so, it was necessary to combine some mathematical models that allow a better
+          understanding of this physical phenomenon, with digital signal and image processing, which allowed achieving
+          the desired results. As a contribution, this work helped to construct a passive acoustic monitoring system to
+          detect CO2 leaks in tanks found on the seabed.
+      - degree: B.Sc. in Computer Engineering
+        university: University of Computer Science, Cuba
+        time: 2008 - 2013
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
 
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: IT Infrastructure Analyst
+        time: Jul, 2024 - Present
+        company: Bradesco, Brazil
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          Skills: Cloud Computing, Azure, Git, GitOps, IaC, Terraform, CI/CD, Agile Methodologies, Communication, Teamwork
+
+      - role: IT Infrastructure Analyst
+        time: Feb, 2024 - Jun, 2024
+        company: Act Digital, Brazil
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          Skills: Cloud Computing, Azure, Git, IaC, Terraform, Agile Methodologies, Communication, Teamwork
+
+      - role: DevOps & Infra Transformation Sr. Analyst
+        time: Dec, 2022 - Jan, 2024
+        company: Accenture, Brazil
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          The last project was for a client in the financial market. I was part of the team in charge of defining and
+          implementing document management and access processes. In addition, I was part of the team responsible for
+          defining metrics that helped monitor compliance with some policies previously established by the company.
+
+          I was part of the Platform Engineering team for a wholesale beverage market client, where I collaborated with the
+          implementation of GitOps practice to improve the automation processes of the infrastructure used.
+          I collaborated in continuous improvement processes throughout the product life cycle, reducing pipeline
+          execution times by almost 50%.
+
+          Skills: Cloud Computing, Azure, AWS, DevOps, SRE, Git, CI/CD, Docker, Kubernetes, GitOps, ArgoCD, Observability, Agile Methodologies, Scrum, Communication, Teamwork
+
+      - role: DevOps & Infra Transformation Analyst
+        time: Jan, 2021 - Nov, 2022
+        company: Accenture, Brazil
+        details: |
+          I participated in several projects for an international financial client, helping to disseminate the
+          DevOps culture within development teams. I was part of the DevOps Support squad (System Team), carrying out
+          troubleshooting work in the execution of pipelines. I collaborated in the maintenance of the pipelines
+          themselves, both by correcting some errors and proposing new steps or functionalities, bringing improvements
+          to the Continuous Integration (CI) - Continuous Delivery (CD) processes, which allowed us to reduce delivery
+          times for various products and platforms. I worked with monitoring/observability of some services, creating
+          some dashboards, and collaborating in the implementation of OpenTelemetry for some products.
+          
+          Skills: Cloud Computing, Azure, AWS, DevOps, Git, CI/CD, Docker, Kubernetes, GitOps, Observability, Agile Methodologies, Scrum, Communication, Teamwork
+
+      - role: Professor (Part-time)
+        time: Sep, 2017 - Jun, 2018
+        company: InSTEC, Cuba
+        details: |
+          Computer Science professor in collaboration with the Department of Physics, Mathematics, and Computer Science
+          for 1st-year students.
+
+      - role: Head of Networks Group
+        time: Apr, 2015 - Jun, 2018
+        company: InSTEC, Cuba
+        details: |
+          Responsible for designing network infrastructures using new standards, install different network services to
+          ensure better quality in network services. Guarantee compliance with the standards, indications and legal
+          technical procedures established by the institution.
+
+      - role: Webmaster
+        time: Sep, 2013 - Mar, 2015
+        company: InSTEC, Cuba
+        details: |
+          I started working at the Higher Institute of Technologies and Applied Sciences (InSTEC) to do my training
+          period. In that period, I performed different tasks, mainly as a Webmaster, and participated in different
+          IT processes.
 
 certifications:
       title: Certifications
