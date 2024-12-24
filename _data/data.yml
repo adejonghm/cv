@@ -1,7 +1,7 @@
 sidebar:
-    position: left # position of the sidebar : left or right
+    position: left
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
+    education: True
 
     # Profile information
     name: Alejandro de Jongh
@@ -18,7 +18,7 @@ sidebar:
     linkedin: adejonghm
     github: adejonghm
     stack-overflow: 16385330/alejandro # Number/Username, 
-    # pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+    pdf: asdasdasd # Add a PDF link here if you want to include a PDF custom version in your resume.
 
     languages:
       title: Languages
@@ -32,17 +32,11 @@ sidebar:
         - idiom: English
           level: Communication
 
-    # interests:
-    #   title: Interests
-    #   info:
-    #     - item: Climbing
-    #       link:
-
-    #     - item: Snowboarding
-    #       link:
-
-    #     - item: Cooking
-    #       link:
+    interests:
+      title: Interests
+      info:
+        - item: Cycling
+          link: "#"
 
 career-profile:
     title: Career Profile
@@ -53,7 +47,6 @@ career-profile:
       DevOps culture, use tools that contribute to Continuous Integration/Delivery, implement new market trends, and
       create cloud infrastructure. Master's degree in Mechanical Engineering, in the Department of Mechanical Control
       Engineering and Automation, from the Polytechnic School of the University of São Paulo.
-
 
 education:
     title: Education
@@ -79,26 +72,27 @@ experiences:
         time: Jul, 2024 - Present
         company: Bradesco, Brazil
         details: |
-          Skills: Cloud Computing, Azure, Git, GitOps, IaC, Terraform, CI/CD, Agile Methodologies, Communication, Teamwork
+          I am part of the Cloud Engineering team, which is responsible for migrating all the infrastructure used in the projects for each of the Bank's channels, which is currently on-premise, to the cloud.
+
+          Specifically, I am a member of the Infrastructure Provisioning squad, and within my duties, I participate in meetings with focal points from various teams such as the cybersecurity team, the network team, and the solutions architecture team, to discuss various aspects of the Infrastructure that will be used in the bank's services.
+
+          Skills: Cloud Computing, Azure, Git, GitOps, IaC, Terraform, PowerShell, CI/CD, Agile Methodologies, Communication, Teamwork
 
       - role: IT Infrastructure Analyst
         time: Feb, 2024 - Jun, 2024
         company: Act Digital, Brazil
         details: |
+          Member of the Cloud Engineering team for our largest client in the financial sector, a team responsible for migrating the entire on-premises infrastructure to the cloud. Responsible for deploying and supporting the infrastructure used by multi-channel services, such as the Investment Channel, Lending Channel, and Digital Account Opening.
+          
           Skills: Cloud Computing, Azure, Git, IaC, Terraform, Agile Methodologies, Communication, Teamwork
 
       - role: DevOps & Infra Transformation Sr. Analyst
         time: Dec, 2022 - Jan, 2024
         company: Accenture, Brazil
         details: |
-          The last project was for a client in the financial market. I was part of the team in charge of defining and
-          implementing document management and access processes. In addition, I was part of the team responsible for
-          defining metrics that helped monitor compliance with some policies previously established by the company.
+          The last project was for a client in the financial market. I was part of the team in charge of defining and implementing document management and access processes. In addition, I was part of the team responsible for defining metrics that helped monitor compliance with some policies previously established by the company.
 
-          I was part of the Platform Engineering team for a wholesale beverage market client, where I collaborated with the
-          implementation of GitOps practice to improve the automation processes of the infrastructure used.
-          I collaborated in continuous improvement processes throughout the product life cycle, reducing pipeline
-          execution times by almost 50%.
+          I was part of the Platform Engineering team for a wholesale beverage market client, where I collaborated with the implementation of GitOps practice to improve the automation processes of the infrastructure used. I collaborated in continuous improvement processes throughout the product life cycle, reducing pipeline execution times by almost 50%.
 
           Skills: Cloud Computing, Azure, AWS, DevOps, SRE, Git, CI/CD, Docker, Kubernetes, GitOps, ArgoCD, Observability, Agile Methodologies, Scrum, Communication, Teamwork
 
@@ -106,13 +100,7 @@ experiences:
         time: Jan, 2021 - Nov, 2022
         company: Accenture, Brazil
         details: |
-          I participated in several projects for an international financial client, helping to disseminate the
-          DevOps culture within development teams. I was part of the DevOps Support squad (System Team), carrying out
-          troubleshooting work in the execution of pipelines. I collaborated in the maintenance of the pipelines
-          themselves, both by correcting some errors and proposing new steps or functionalities, bringing improvements
-          to the Continuous Integration (CI) - Continuous Delivery (CD) processes, which allowed us to reduce delivery
-          times for various products and platforms. I worked with monitoring/observability of some services, creating
-          some dashboards, and collaborating in the implementation of OpenTelemetry for some products.
+          I participated in several projects for an international financial client, helping to disseminate the DevOps culture within development teams. I was part of the DevOps Support squad (System Team), carrying out troubleshooting work in the execution of pipelines. I collaborated in the maintenance of the pipelines themselves, both by correcting some errors and proposing new steps or functionalities, bringing improvements to the Continuous Integration (CI) - Continuous Delivery (CD) processes, which allowed us to reduce delivery times for various products and platforms. I worked with monitoring/observability of some services, creating some dashboards, and collaborating in the implementation of OpenTelemetry for some products.
           
           Skills: Cloud Computing, Azure, AWS, DevOps, Git, CI/CD, Docker, Kubernetes, GitOps, Observability, Agile Methodologies, Scrum, Communication, Teamwork
 
@@ -120,155 +108,109 @@ experiences:
         time: Sep, 2017 - Jun, 2018
         company: InSTEC, Cuba
         details: |
-          Computer Science professor in collaboration with the Department of Physics, Mathematics, and Computer Science
-          for 1st-year students.
+          Computer Science professor in collaboration with the Department of Physics, Mathematics, and Computer Science for 1st-year students.
 
       - role: Head of Networks Group
         time: Apr, 2015 - Jun, 2018
         company: InSTEC, Cuba
         details: |
-          Responsible for designing network infrastructures using new standards, install different network services to
-          ensure better quality in network services. Guarantee compliance with the standards, indications and legal
-          technical procedures established by the institution.
+          Responsible for designing network infrastructures using new standards, install different network services to ensure better quality in network services. Guarantee compliance with the standards, indications and legal technical procedures established by the institution.
 
       - role: Webmaster
         time: Sep, 2013 - Mar, 2015
         company: InSTEC, Cuba
         details: |
-          I started working at the Higher Institute of Technologies and Applied Sciences (InSTEC) to do my training
-          period. In that period, I performed different tasks, mainly as a Webmaster, and participated in different
-          IT processes.
+          I started working at the Higher Institute of Technologies and Applied Sciences (InSTEC) to do my training period. In that period, I performed different tasks, mainly as a Webmaster, and participated in different IT processes.
 
 certifications:
       title: Certifications
       list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
+        - name: GitHub Foundations
+          start: 2024
+          end: 2027
+          organization: GitHub
+          credentialid: 
+          credentialurl: www.credly.com/badges/ab5e37a5-2d21-4af4-a3c3-246f4e1b6d43
+          credentialname: GitHub Foundations
           details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
 
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
+        - name: AWS Certified Cloud Practitioner
+          start: 2023
+          end: 2026
+          organization: Amazon Web Services
+          credentialid: 1DHMDT229J11QPSW
+          credentialurl: www.credly.com/badges/9e87cf44-dec1-4683-8fcf-57f19272600a
+          credentialname: AWS Cloud Practitioner
+          details: |
+
+        - name: GitOps Fundamentals
+          start: 2022
+          end:
+          organization: Codefresh
+          credentialid: 
+          credentialurl: www.credly.com/badges/6aa6d077-458b-48f7-af5a-23e1059f04ae
+          credentialname: GitOps Fundamentals
+          details: |
+
+        - name: Azure Fundamentals (AZ-900)
+          start: 2022
           end:
           organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
+          credentialid: I213-5305
+          credentialurl: www.credly.com/badges/80479915-3103-4dcf-809b-bdc3085cd8ca
+          credentialname: AZ-900
           details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
+
+        - name: Continuous Delivery Certified
+          start: 2021
+          end:
+          organization: Harness
+          credentialid: 5om5y9ytitwx
+          credentialurl: verify.skilljar.com/c/5om5y9ytitwx
+          credentialname: Continuous Delivery Certified
+          details: |
 
 projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    title: Volunteering
+    intro:
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: Projeto ORSI
+        link: https://www.linkedin.com/company/projeto-orsi/posts/?feedView=all
+        tagline: " Soy Voluntario de la ONG que se encarga de"
+      - title: DevOpsDays Sao Paulo
+        link: https://www.linkedin.com/company/devopsdayssp/posts/?feedView=all
+        tagline: "Fui parte del staff de organizacion del evento en 2024"
 
 publications:
     title: Publications
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+      You can list your publications in this section.
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: "Experimental study of air bubble dynamics in water using acoustic analysis and underwater images"
+        link: https://www.teses.usp.br/teses/disponiveis/3/3152/tde-04112021-164049/pt-br.php
+        authors: de Jongh, A., Ribas Martins, F.P., Padovese, L.R.
+        conference: University of Sao Paulo, Brazil, 2021
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: "Analysis of the acoustic emission of a bubble in liquid medium"
+        link: https://www.researchgate.net/publication/337746999_Analysis_of_the_Acoustic_Emission_of_a_Bubble_in_Liquid_Medium/
+        authors: de Jongh, A., Ribas Martins, F.P., Padovese, L.R.
+        conference: 25th ABCM International Congress of Mechanical Engineering, MG-Brazil, 2019
 
 skills:
     title: Skills &amp; Proficiency
-
     toolset:
       - name: Python & Django
         level: 98%
-
       - name: Javascript & jQuery
         level: 98%
-
       - name: Angular
         level: 98%
-
       - name: HTML5 & CSS
         level: 95%
-
       - name: Ruby on Rails
         level: 85%
-
       - name: Sketch & Photoshop
         level: 60%
 
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    All Rights Reserved by A. de Jongh
