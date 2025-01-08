@@ -37,6 +37,8 @@ sidebar:
       info:
         - item: Cycling
           link: "#"
+        - item: Dancing
+          link: "#"
 
 career-profile:
     title: Career Profile
@@ -176,15 +178,13 @@ projects:
     assignments:
       - title: Projeto ORSI
         link: https://www.linkedin.com/company/projeto-orsi/posts/?feedView=all
-        tagline: " Soy Voluntario de la ONG que se encarga de"
+        tagline: "Currently, the Orsi Project is dedicated to combating hunger and offering comprehensive social assistance to individuals in vulnerable situations. Through the distribution of essential services, clothing, nutritious food, and crucial items, the project strives to alleviate the hardships faced by those in need. By addressing both, immediate necessities and long-term support, the Orsi Project plays a pivotal role in uplifting communities and fostering a sense of dignity and hope. (Volunteer since 2022)"
       - title: DevOpsDays Sao Paulo
         link: https://www.linkedin.com/company/devopsdayssp/posts/?feedView=all
-        tagline: "Fui parte del staff de organizacion del evento en 2024"
+        tagline: "I was a member of the organizing team for the 2024 edition, collaborating in several aspects, such as validating tickets at the event door."
 
 publications:
     title: Publications
-    intro: |
-      You can list your publications in this section.
     papers:
       - title: "Experimental study of air bubble dynamics in water using acoustic analysis and underwater images"
         link: https://www.teses.usp.br/teses/disponiveis/3/3152/tde-04112021-164049/pt-br.php
@@ -199,18 +199,20 @@ publications:
 skills:
     title: Skills &amp; Proficiency
     toolset:
-      - name: Python & Django
+      - name: Azure
+        level: 90%
+      - name: Git / GitHub
         level: 98%
-      - name: Javascript & jQuery
-        level: 98%
-      - name: Angular
-        level: 98%
-      - name: HTML5 & CSS
-        level: 95%
-      - name: Ruby on Rails
+      - name: Python
         level: 85%
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: PowerShell
+        level: 70%
+      - name: Terraform
+        level: 80%
+      - name: Kubernetes
+        level: 40%
+      - name: Docker
+        level: 65%
 
 footer: >
     All Rights Reserved by A. de Jongh
