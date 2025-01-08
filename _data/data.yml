@@ -12,13 +12,13 @@ sidebar:
     # twitter: '@jekyllrb'
     # phone: 012 345 6789
     # citizenship:
+    # pdf:  # Add a PDF link here if you want to include a PDF custom version in your resume.
     email: dejongh.morell@gmail.com
     timezone: America/Sao Paulo
     website: https://bytemaze.tech/ # Include the full website URL, including "http://" or "https://".
     linkedin: adejonghm
     github: adejonghm
     stack-overflow: 16385330/alejandro # Number/Username, 
-    pdf: asdasdasd # Add a PDF link here if you want to include a PDF custom version in your resume.
 
     languages:
       title: Languages
